@@ -1,0 +1,8 @@
+n=int(input())
+
+for row in range(0, n,1):
+    print(" "*(n-row) + "*"*(row+1) + "*"*(row))
+for row in range(0,n,1):
+    if row == 0:
+        continue
+    print(" "*(row+1) + "*"*(n-row) + "*"*(n-row-1))
