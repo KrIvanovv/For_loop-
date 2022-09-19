@@ -1,0 +1,12 @@
+n=int(input())
+divide=n//2
+minus=n-2
+
+print("*"*n + " "*(n) + "*"*n)
+for i in range(0,n-2,1):
+    if i == divide -2:
+        print("*" + "/"*minus + "*" + "|"*n + "*" + "/"*minus + "*")
+    else:
+        print("*" + "/"*minus + "*" + " "*n + "*" + "/"*minus + "*")
+
+print("*"*n + " "*(n) + "*"*n)
