@@ -1,0 +1,10 @@
+num = [23, 4, -6, 23, -9, 21, 3, -45, -8]
+positive = []
+negative = []
+
+for i in range(len(num)):
+    if num[i] <0:
+        negative.append(num[i])
+    else:
+        positive.append(num[i])
+print("Positive numers are ", positive,  "Negative numbers are ", negative, end="")
