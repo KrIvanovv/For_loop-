@@ -1,0 +1,5 @@
+n = [23, 'Python',23.98]
+type_n = []
+for i in range(len(n)):
+    type_n.append(type(n[i]))
+print(type_n)
