@@ -1,0 +1,11 @@
+import math
+n= int(input())
+is_prime=True
+n_sqr=int(math.sqrt(n))
+if n<2:
+    print("Not prime")
+for i in range(2, n_sqr,1):
+    if n/i == n//i:
+        is_prime=False
+
+print(is_prime)
